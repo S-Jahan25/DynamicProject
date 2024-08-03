@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Functional Test">
+
+    <!--  /  <test name="Login" parallel="methods" thread-count="2">-->
+    <test name = "Login">
+        <!--     <parameter name="myBrowser" value="chrome"></parameter> -->
+
+        <classes>
+            <class name="testNG_Basic.BaseClass"/>
+            <!--           <class name="javaPackages.testNG_Basic.TestNGPractice"></class> -->
+            <!--         <class name="javaPackages.com.upright.pageObjects.UprightForumSignupPage2"></class> -->
+
+
+        </classes>
+
+    </test>
+
+</suite>
